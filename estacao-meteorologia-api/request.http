@@ -1,0 +1,15 @@
+POST  http://localhost:8080/api/v1/temperature-humidity/create HTTP/1.1
+content-type: application/json
+
+{
+    "temperature": "10",
+    "humidity": "10"
+}
+###
+GET  https://estacao-meteorologica-api.herokuapp.com/api/v1/temperature-humidity/create?field1=30&field2=40 HTTP/1.1
+
+###
+
+GET  http://localhost:8080/api/v1/temperature-humidity/create?field1=30&field2=40 HTTP/1.1
+
+###
